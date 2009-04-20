@@ -11,9 +11,9 @@ module OpenFlashChart
 
   class BarStackValue < Base
     def initialize(val,colour, args={})
+      super args
       @val    = val
-      @colour = colour
-      super
+      @colour = colour      
     end
   end
 
